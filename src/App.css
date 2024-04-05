@@ -1,0 +1,67 @@
+/* I Jay Patel, 000881881 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.
+ */
+td,
+tr,
+th,
+table {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/* App.css */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+h1 {
+  text-align: center;
+}
+.img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.about {
+  font-size: 20px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.inventory,
+.search {
+  margin: 0 auto;
+  width: 90%;
+}
